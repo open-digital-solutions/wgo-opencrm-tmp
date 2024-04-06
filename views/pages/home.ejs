@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body class="green-theme <%if (isDevelopmentEnv) { %> url-development<% } else{ %> url-production <% } %>">
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <%- include('../partials/header'); %>
+    </header>
+    <main role="main" id="main">
+      <section id="hero">
+        <div class="text-center main-title" data-aos="zoom-out">
+          <h1 style="color: white"><p><%= italianTranslations.KEY_HEADER_TEXT_1 %></p><strong style="color: white"><%= italianTranslations.KEY_HEADER_TEXT_1_1 %></strong> <%= italianTranslations.KEY_HEADER_TEXT_1_2 %></h1>
+          <h1 style="color: white"><%= italianTranslations.KEY_HEADER_TEXT_2_1 %> <strong style="color: white"><%= italianTranslations.KEY_HEADER_TEXT_2_2 %></strong><%= italianTranslations.KEY_HEADER_TEXT_2_3 %><strong style="color: white"><%= italianTranslations.KEY_HEADER_TEXT_2_4 %> </strong><%= italianTranslations.KEY_HEADER_TEXT_2_5 %> <strong style="color: white"><%= italianTranslations.KEY_HEADER_TEXT_2_6 %> </strong></h1>
+          <h1 style="color: white"><%= italianTranslations.KEY_HEADER_TEXT_3 %></h1>
+        </div>
+    
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+            <defs>
+                <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/>
+            </defs>
+            <g class="wave1">
+                <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)"/>
+            </g>
+            <g class="wave2">
+                <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)"/>
+            </g>
+            <g class="wave3">
+                <use xlink:href="#wave-path" x="50" y="9" fill="#fff"/>
+            </g>
+        </svg>
+      </section><!-- End Hero -->
+
+      <!-- ======= Details Section ======= -->
+      <section id="details" class="details">
+        <div class="container">
+          <div class="row content" style="margin:5rem 0 5rem 0;">
+            <div class="main-label" data-aos="fade-up">
+              <h1><%= italianTranslations.KEY_MAIN_TITLE %></h1>
+            </div>
+          </div>
+          
+          <div class="row content">
+            <div class="pt-4" data-aos="fade-up">
+              <h3><%= italianTranslations.KEY_SECTION_PERCHE_TITLE %></h3>
+              <p class="fst-italic"><%= italianTranslations.KEY_SECTION_PERCHE_MEANING %></p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="pt-4" data-aos="fade-up" style="width:100%;">
+              <h3><%= italianTranslations.KEY_SECTION_ALLINONE_TITLE %></h3>
+              <p class="text-justify">
+                <%= italianTranslations.KEY_SECTION_ALLINONE_P1_1 %>
+                  <strong><%= italianTranslations.KEY_SECTION_ALLINONE_P1_2 %></strong>, <strong><%= italianTranslations.KEY_SECTION_ALLINONE_P1_3 %></strong>, <strong><%= italianTranslations.KEY_SECTION_ALLINONE_P1_4 %></strong> <%= italianTranslations.KEY_SECTION_ALLINONE_P1_5 %>
+              </p>
+              <p class="text-justify"><%= italianTranslations.KEY_SECTION_ALLINONE_P2 %></p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="pt-4 order-2 order-md-1" data-aos="fade-up" style="width:100%;">
+              <h3><%= italianTranslations.KEY_SECTION_DESCRIZIONE_TITLE %></h3>
+              <p style="font-size: medium; text-align:justify;">
+                <%= italianTranslations.KEY_SECTION_DESCRIZIONE_P1 %>
+                <br />
+                <br />
+                <%= italianTranslations.KEY_SECTION_DESCRIPZIONE_P2 %>
+                <br />
+                <br />
+                <%= italianTranslations.KEY_SECTION_DESCRIZIONE_P3 %>
+              </p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+              <img src="<% baseUrl %>/static/img/bio/istruzione_uso_capsule.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 order-2 order-md-1" data-aos="fade-up">
+              <h3><%= italianTranslations.KEY_SECTION_MODALITA_TITLE %></h3>
+              <p>
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i><%= italianTranslations.KEY_SECTION_MODALITA_LIST_L1 %>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i><%= italianTranslations.KEY_SECTION_MODALITA_LIST_L2 %>
+                  </li>
+                </ul>
+              </p>
+              <h5><%= italianTranslations.KEY_SECTION_MODALITA_LIST_P %></h5>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+              <img src="<% baseUrl %>/static/img/bio//confezione.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 order-2 order-md-1" data-aos="fade-up">
+              <h3><%= italianTranslations.KEY_SECTION_IMBALLAGIO_TITLE %></h3>
+              <p>
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <%= italianTranslations.KEY_SECTION_IMBALLAGIO_LIST_L1 %>
+                  </li>
+
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <%= italianTranslations.KEY_SECTION_IMBALLAGIO_LIST_L2 %>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <%= italianTranslations.KEY_SECTION_IMBALLAGIO_LIST_L3 %>
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+              <img src="<% baseUrl %>/static/img/bio//confezione.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 order-2 order-md-1" data-aos="fade-up">
+              <h3><%= italianTranslations.KEY_SECTION_CURIOSITA_TITLE%></h3>
+              <p><%= italianTranslations.KEY_SECTION_CURIOSITA_P1%></p>
+              <p><%= italianTranslations.KEY_SECTION_CURIOSITA_P2%></p>
+              <p><%= italianTranslations.KEY_SECTION_CURIOSITA_P3%></p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+              <img src="<% baseUrl %>/static/img/bio/confezione.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 order-2 order-md-1" data-aos="fade-up">
+              <h3><%= italianTranslations.KEY_SECTION_VANTAGGI_TITLE%></h3>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <%= italianTranslations.KEY_SECTION_VANTAGGI_LIST_L1%>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <%= italianTranslations.KEY_SECTION_VANTAGGI_LIST_L2%>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <%= italianTranslations.KEY_SECTION_VANTAGGI_LIST_L3%>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <%= italianTranslations.KEY_SECTION_VANTAGGI_LIST_L4%>
+                </li>
+              </ul>
+              <p><%= italianTranslations.KEY_SECTION_VANTAGGI_P%></p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col pt-1 mb-5" data-aos="fade-up">
+              <h3><%= italianTranslations.KEY_CERTIFICATI_TITLE%></h3>
+              <div class="row justify-content-md-around align-items-md-center container-icons">
+                <div class="col-md-auto container-icon-logo">
+                  <img class="icon-logo" src="<% baseUrl %>/static/img/dermatest-logo-small.svg" style="width:200px;" />
+                </div>
+                <div class="col-md-auto container-icon-logo">
+                  <img class="icon-logo" src="<% baseUrl %>/static/img/cropped-v-label-logo.png" style="width:100px; height:100px" />
+                </div>
+                <div class="col-md-auto container-icon-logo">
+                  <img class="icon-logo" src="<% baseUrl %>/static/img/swissLabel-logo.jpg" style="width:100px;" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-8 pt-4" data-aos="fade-left">
+            <h3><%= italianTranslations.KEY_SCHEDE_TITLE%></h3>
+            <p><%= italianTranslations.KEY_SCHEDE_P%></p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col pt-1 mb-5" data-aos="fade-up">
+              <h3><%= italianTranslations.KEY_CONTATTACI%></h3>
+              <div class="row content contact-info" data-aos="fade-up">
+                <div class="col my-3">
+                  <div class="address">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4>Daniele Dudler Sagl</h4>
+                    <p>Via San Giorgio 1</p>
+                    <p>6826 Riva San Vitale (TI), Switzerland</p>
+                  </div>
+                </div>
+                
+                <div class="col my-3">
+                  <div class="email">
+                    <i class="bi bi-envelope"></i>
+                    <h4>Email:</h4>
+                    <p>info@omniumbio.ch</p>
+                    <p>www.omniumbio.ch</p>
+                  </div>
+                </div>
+                
+                <div class="col my-3">
+                  <div class="phone">
+                    <i class="bi bi-phone"></i>
+                    <h4>Telefono:</h4>
+                    <p>+41 91 630 50 42</p>
+                    <p>+41 79 682 55 45</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <!-- End Details Section -->
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <!-- <div id="preloader"></div> -->
+    </main>
+    <footer class="border-top footer text-muted" style="margin-top:5rem;">
+      <%- include('../partials/footer'); %>
+    </footer>
+  </body>
+</html>

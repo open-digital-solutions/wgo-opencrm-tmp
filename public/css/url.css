@@ -1,0 +1,52 @@
+
+.url-development {
+  --url-avenir-cn: url('http://localhost:3000/static/font/AvenirNextLTPro-Cn.otf');
+  --url-avenir-boldCn: url('http://localhost:3000/static/font/AvenirNextLTPro-BoldCn.otf');
+  --url-avenir-boldCnIt: url('http://localhost:3000/static/font/AvenirNextLTPro-BoldCnIt.otf');
+  --url-avenir-tproCn: url('http://localhost:3000/static/font/AvenirNextLTPro-Cn.otf');
+  --url-avenir-tpro-cnIt: url('http://localhost:3000/static/font/AvenirNextLTPro-CnIt.otf');
+  --url-avenir-tpro-demi: url('http://localhost:3000/static/font/AvenirNextLTPro-Demi.otf');
+  --url-avenir-tpro-demiCn: url('http://localhost:3000/static/font/AvenirNextLTPro-DemiCn.otf');
+  --url-avenir-tpro-demiCnIt: url('http://localhost:3000/static/font/AvenirNextLTPro-DemiCnIt.otf');
+  --url-avenir-tpro-demiIt: url('http://localhost:3000/static/font/AvenirNextLTPro-DemiIt.otf');
+  --url-avenir-tpro-heavyCn: url('http://localhost:3000/static/font/AvenirNextLTPro-HeavyCn.otf');
+  --url-avenir-tpro-heavyCnIt: url('http://localhost:3000/static/font/AvenirNextLTPro-HeavyCnIt.otf');
+  --url-avenir-tpro-it: url('http://localhost:3000/static/font/AvenirNextLTPro-It.otf');
+  --url-avenir-tpro-mediumCn: url('http://localhost:3000/static/font/AvenirNextLTPro-MediumCn.otf');
+  --url-avenir-tpro-mediumCnIt: url('http://localhost:3000/static/font/AvenirNextLTPro-MediumCnIt.otf');
+  --url-avenir-tpro-regular: url('http://localhost:3000/static/font/AvenirNextLTPro-Regular.otf');
+  --url-avenir-tpro-ultltCn: url('http://localhost:3000/static/font/AvenirNextLTPro-UltLtCn.otf');
+  --url-avenir-tpro-ultltCnIt: url('http://localhost:3000/static/font/AvenirNextLTPro-UltLtCnIt.otf');
+  --url-landing-omniumbio: url("http://localhost:3000/static/img/bio/landing_omniumbio_clean_1.png");
+  --url-landing-mobile: url("http://localhost:3000/static/img/bio/landing_omnium_bio_mobile.jpg");
+  --url-omnium-disegno: url("http://localhost:3000/static/img/bio/omniobio-disegno.png");
+  --url-omnium-disegno-m: url("http://localhost:3000/static/img/bio/omniobio-disegn-m.jpg");
+  --url-about: url("http://localhost:3000/static/img/about.png");
+  --url-cta-bg: url("http://localhost:3000/static/img/cta-bg.jpg");
+}
+
+.url-production {
+  --url-avenir-cn: url('https://omniumbio.ch/static/font/AvenirNextLTPro-Cn.otf');
+  --url-avenir-boldCn: url('https://omniumbio.ch/static/font/AvenirNextLTPro-BoldCn.otf');
+  --url-avenir-boldCnIt: url('https://omniumbio.ch/static/font/AvenirNextLTPro-BoldCnIt.otf');
+  --url-avenir-tproCn: url('https://omniumbio.ch/static/font/AvenirNextLTPro-Cn.otf');
+  --url-avenir-tpro-cnIt: url('https://omniumbio.ch/static/font/AvenirNextLTPro-CnIt.otf');
+  --url-avenir-tpro-demi: url('https://omniumbio.ch/static/font/AvenirNextLTPro-Demi.otf');
+  --url-avenir-tpro-demiCn: url('https://omniumbio.ch/static/font/AvenirNextLTPro-DemiCn.otf');
+  --url-avenir-tpro-demiCnIt: url('https://omniumbio.ch/static/font/AvenirNextLTPro-DemiCnIt.otf');
+  --url-avenir-tpro-demiIt: url('https://omniumbio.ch/static/font/AvenirNextLTPro-DemiIt.otf');
+  --url-avenir-tpro-heavyCn: url('https://omniumbio.ch/static/font/AvenirNextLTPro-HeavyCn.otf');
+  --url-avenir-tpro-heavyCnIt: url('https://omniumbio.ch/static/font/AvenirNextLTPro-HeavyCnIt.otf');
+  --url-avenir-tpro-it: url('https://omniumbio.ch/static/font/AvenirNextLTPro-It.otf');
+  --url-avenir-tpro-mediumCn: url('https://omniumbio.ch/static/font/AvenirNextLTPro-MediumCn.otf');
+  --url-avenir-tpro-mediumCnIt: url('https://omniumbio.ch/static/font/AvenirNextLTPro-MediumCnIt.otf');
+  --url-avenir-tpro-regular: url('https://omniumbio.ch/static/font/AvenirNextLTPro-Regular.otf');
+  --url-avenir-tpro-ultltCn: url('https://omniumbio.ch/static/font/AvenirNextLTPro-UltLtCn.otf');
+  --url-avenir-tpro-ultltCnIt: url('https://omniumbio.ch/static/font/AvenirNextLTPro-UltLtCnIt.otf');
+  --url-landing-omniumbio: url("https://omniumbio.ch/static/img/bio/landing_omniumbio_clean_1.png");
+  --url-landing-mobile: url("https://omniumbio.ch/static/img/bio/landing_omnium_bio_mobile.jpg");
+  --url-omnium-disegno: url("https://omniumbio.ch/static/img/bio/omniobio-disegno.png");
+  --url-omnium-disegno-m: url("https://omniumbio.ch/static/img/bio/omniobio-disegn-m.jpg");
+  --url-about: url("https://omniumbio.ch/static/img/about.png");
+  --url-cta-bg: url("https://omniumbio.ch/static/img/cta-bg.jpg");
+}

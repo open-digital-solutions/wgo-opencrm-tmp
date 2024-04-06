@@ -1,0 +1,9 @@
+﻿:root {
+  --main-color: #008000;
+  --bold-text-color: #54cb2c;
+}
+
+.green-theme {
+  --title-color: var(--main-color);
+  --strong-text-color: var(--bold-text-color);
+}

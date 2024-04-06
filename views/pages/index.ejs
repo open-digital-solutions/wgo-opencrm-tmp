@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body class="green-theme <%if (isDevelopmentEnv) { %> url-development<% } else{ %> url-production <% } %>">
+    <main style="width: 100wv; height: 100vh;">
+      <a href="/Home">
+        <section id="herohome">
+          <div class="text-center text-end" style="position: relative; width:100%; height:100%">
+            <div class="container" style="position: absolute; top: 30%; left: 50%; transform: translateX(-50%); text-align: center;">
+              <img src="<% baseUrl %>/static/img/logo.png" alt="Logo" style="width:100%; height: auto;">
+            </div>
+          </div>
+        </section>
+      </a>
+    </main>
+  </body>
+</html>
