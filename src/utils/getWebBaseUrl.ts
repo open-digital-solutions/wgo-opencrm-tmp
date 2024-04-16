@@ -12,8 +12,12 @@ export const getWebBaseUrl = () => {
     : "APP_WEB_HOST not found";
 };
 
-
 export const IsDevelopmentEnv = () => {
   const getNodeEnv = GetNodeEnvKey();
-  return (getNodeEnv === "development")
-}
+  return getNodeEnv === "development";
+};
+export const getAppRoot = () => {
+  return process.env.APP_WEB_ROOT
+    ? process.env.APP_WEB_ROOT
+    : "APP_WEB_ROOT not found";
+};
